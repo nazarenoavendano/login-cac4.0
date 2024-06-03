@@ -27,7 +27,7 @@ btn.addEventListener("click", function(event) {
 
     if (condicion1 == condicion2) {
         console.log("pasó el login ok")
-        location.assign("/api.html");
+        location.assign("/login-cac4.0/api.html");
     }
 });
 
