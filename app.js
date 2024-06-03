@@ -2,6 +2,8 @@
 let btn = document.getElementById("btnenviar");
 let usuario = document.getElementById("usuario");
 let contrasena = document.getElementById("contrasena");
+let condicion1 = false;
+let condicion2 = false;
 
 btn.addEventListener("click", function(event) {
     event.preventDefault();
