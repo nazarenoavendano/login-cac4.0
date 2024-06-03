@@ -24,6 +24,7 @@ btn.addEventListener("click", function(event) {
     }
 
     if (condicion1 == true && condicion2 == true) {
+        //otra pagg
         location.assign("./api.html");
     }
 });
