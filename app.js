@@ -23,7 +23,7 @@ btn.addEventListener("click", function(event) {
         return;
     }
 
-    if (condicion1 == true && condicion2 == true) {
+    if (condicion1 == condicion2) {
         console.log("pasó el login")
         location.assign("/api.html");
     }
