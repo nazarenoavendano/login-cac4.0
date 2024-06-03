@@ -24,7 +24,7 @@ btn.addEventListener("click", function(event) {
     }
 
     if (condicion1 == true && condicion2 == true) {
-        //otra pagg
+        console.log("pasó el login")
         location.assign("/api.html");
     }
 });
