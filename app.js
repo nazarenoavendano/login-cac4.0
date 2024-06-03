@@ -24,7 +24,7 @@ btn.addEventListener("click", function(event) {
     }
 
     if (condicion1 == true && condicion2 == true) {
-        location.assign("api.html");
+        location.assign("./api.html");
     }
 });
 
