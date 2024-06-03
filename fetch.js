@@ -6,7 +6,6 @@ fetch(url)
 .then((res)=>res.json())
 .then((datos)=>{
 
-    //console.log(datos.results)
 
     datos.results.forEach((elementos) => {
         const divartificial = document.createElement("div")
